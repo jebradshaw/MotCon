@@ -1,7 +1,7 @@
 # MotCon
 This MotCon motor driver class can be used with a variety of motor driver integrated circuits for driving PM DC motors. The MotCon class is overloaded to accommodate either one or two direction pins and a PwmOut pin for speed control/motor enable .
 
-```
+```C++
 #include "MotCon.h"     //uses the MotCon.h library for controlling the motor ports
 
 //PC serial connection
